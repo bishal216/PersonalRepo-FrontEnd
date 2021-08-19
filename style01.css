@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#body{
+	background-color: red;
+}
+.home{
+	height: 700px;
+}
+.backgroundimg{
+	position: absolute;
+	background-image: url(img/Home-BG.jfif);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 100%;
+	text-align: center;	
+		}
+.hell{
+	margin-top: 300px;
+}
+.ctr{
+	text-align: 	center;	
+}
+.btnctr{
+	margin-left:38%;
+}
+.light{
+	color: 	silver;
+}
+.wide{
+	letter-spacing: 10px;
+}
+.wider{
+	margin-left: 100px;
+}
+.wider a{
+	letter-spacing: 100px;
+}
+.btn a{
+	color: black;
+	font-style: normal;
+}
+.btn a:hover{
+	color: black;
+}
+.row{
+	padding-top: 12px;
+	padding-bottom: 12px; 
+}
+.thirty{
+	height: 96%;
+	width: 30%;
+}
+.orange{
+	color: orange;
+}
+footer a{
+	color: black;
+}
+footer a:hover{
+	color: black;
+	text-underline-position: none;
+}
+#section-gallery img{
+	margin: 2px;
+	padding: 2px;
+}
+
+.carousel-indicators > li {
+   width: 10px!important;
+  height: 10px!important;
+  border-radius: 50%;
+  background-color:silver!important;
+}
+.features h1,
+.features p{
+	color: black;
+}
+body{margin-top:20px;}
+
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+}
